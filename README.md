@@ -2,7 +2,7 @@
 
 Personal portfolio website for **Chirag Sharma**, Senior Business Analyst with 8+ years across Healthcare, Pharma, LMS, and CRM SaaS.
 
-🔗 **Live site:** _add your URL after deploying_
+🔗 **Live site:** https://charlie080495.github.io/chirag-sharma-portfolio/
 
 ## Highlights
 
