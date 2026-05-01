@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chirag Sharma — Senior Business Analyst with 8+ years delivering Healthcare, Pharma, LMS, and CRM SaaS products. HIPAA, EVV, Agile, AI-Augmented Analysis." />
+  <meta name="keywords" content="Senior Business Analyst, Healthcare BA, HIPAA, EVV, EMR, SaaS Business Analyst, Agile, Scrum, Jira, Confluence, AI-Augmented BA, Requirements Engineering, Chirag Sharma" />
+  <meta name="author" content="Chirag Sharma" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Chirag Sharma — Senior Business Analyst | Healthcare & SaaS" />
+  <meta property="og:description" content="8+ years translating complex business needs into measurable product outcomes. HIPAA, EVV, Agile, AI-Augmented BA." />
+  <meta property="og:url" content="https://chiragsharma.dev/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chirag Sharma — Senior Business Analyst" />
+  <meta name="twitter:description" content="Healthcare & SaaS Business Analyst | Agile Delivery | AI-Augmented BA" />
+
+  <title>Chirag Sharma — Senior Business Analyst | Healthcare & SaaS</title>
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Chirag Sharma",
+    "jobTitle": "Senior Business Analyst",
+    "email": "mailto:sharmachiragsharma77@gmail.com",
+    "telephone": "+91-8350981441",
+    "url": "https://chiragsharma.dev/",
+    "sameAs": ["https://linkedin.com/in/chirag-sharma-59a347161"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palampur",
+      "addressRegion": "Himachal Pradesh",
+      "addressCountry": "IN"
+    },
+    "knowsAbout": ["Business Analysis", "HIPAA Compliance", "EVV", "Agile", "Scrum", "Requirements Engineering", "AI-Augmented BA", "SaaS", "Healthcare IT"]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ===== Design Tokens ===== */
+    :root {
+      --bg: #0a0e17;
+      --bg-elev: #0f1422;
+      --bg-card: #131a2c;
+      --border: #1f2940;
+      --text: #e7ecf5;
+      --text-dim: #9aa6bf;
+      --text-muted: #6b7693;
+      --accent: #00d9ff;
+      --accent-2: #6e6bff;
+      --accent-glow: rgba(0, 217, 255, 0.18);
+      --success: #34d399;
+      --warning: #fbbf24;
+      --gradient-hero: radial-gradient(ellipse at top, rgba(110, 107, 255, 0.18), transparent 60%),
+                       radial-gradient(ellipse at bottom right, rgba(0, 217, 255, 0.12), transparent 60%);
+      --shadow-md: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+      --shadow-lg: 0 25px 60px -20px rgba(0, 0, 0, 0.6);
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 22px;
+      --container: 1180px;
+      --transition: 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    [data-theme="light"] {
+      --bg: #fbfbfd;
+      --bg-elev: #ffffff;
+      --bg-card: #ffffff;
+      --border: #e5e7ee;
+      --text: #0c111d;
+      --text-dim: #4b5570;
+      --text-muted: #6b7693;
+      --accent: #0066ff;
+      --accent-2: #6e6bff;
+      --accent-glow: rgba(0, 102, 255, 0.12);
+      --gradient-hero: radial-gradient(ellipse at top, rgba(110, 107, 255, 0.10), transparent 60%),
+                       radial-gradient(ellipse at bottom right, rgba(0, 102, 255, 0.08), transparent 60%);
+      --shadow-md: 0 8px 24px -10px rgba(15, 25, 60, 0.10);
+      --shadow-lg: 0 25px 60px -20px rgba(15, 25, 60, 0.18);
+    }
+
+    /* ===== Reset ===== */
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      transition: background var(--transition), color var(--transition);
+      overflow-x: hidden;
+    }
+    h1, h2, h3, h4 { font-family: 'Space Grotesk', sans-serif; line-height: 1.15; margin: 0; letter-spacing: -0.02em; }
+    p { margin: 0; }
+    a { color: inherit; text-decoration: none; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+    img, svg { display: block; max-width: 100%; }
+    ::selection { background: var(--accent); color: #fff; }
+
+    .container { max-width: var(--container); margin: 0 auto; padding: 0 24px; }
+
+    /* ===== Animated background grid ===== */
+    .bg-grid {
+      position: fixed; inset: 0; z-index: -2; pointer-events: none;
+      background-image:
+        linear-gradient(var(--border) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse 80% 50% at 50% 0%, black 30%, transparent 75%);
+      opacity: 0.4;
+    }
+    .bg-glow { position: fixed; inset: 0; z-index: -1; pointer-events: none; background: var(--gradient-hero); }
+
+    /* ===== Navigation ===== */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: 16px 0;
+      backdrop-filter: blur(14px) saturate(160%);
+      -webkit-backdrop-filter: blur(14px) saturate(160%);
+      background: color-mix(in srgb, var(--bg) 75%, transparent);
+      border-bottom: 1px solid transparent;
+      transition: var(--transition);
+    }
+    .nav.scrolled { border-bottom-color: var(--border); padding: 12px 0; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .logo {
+      font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .logo-mark {
+      width: 32px; height: 32px; border-radius: 8px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      display: grid; place-items: center; color: #fff; font-size: 14px;
+      box-shadow: 0 0 20px var(--accent-glow);
+    }
+    .nav-links { display: flex; gap: 6px; align-items: center; }
+    .nav-links a {
+      padding: 8px 14px; border-radius: 8px; font-size: 14px; color: var(--text-dim);
+      transition: var(--transition); font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--text); background: var(--bg-card); }
+    .nav-links a.active { color: var(--accent); }
+    .nav-actions { display: flex; gap: 10px; align-items: center; }
+    .icon-btn {
+      width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--border);
+      background: var(--bg-card); display: grid; place-items: center;
+      transition: var(--transition); color: var(--text-dim);
+    }
+    .icon-btn:hover { color: var(--accent); border-color: var(--accent); transform: translateY(-2px); }
+    .menu-toggle { display: none; }
+
+    /* ===== Buttons ===== */
+    .btn {
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 13px 22px; border-radius: 10px; font-weight: 600; font-size: 14px;
+      transition: var(--transition); white-space: nowrap;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #fff;
+      box-shadow: 0 8px 24px var(--accent-glow);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 32px var(--accent-glow); }
+    .btn-ghost {
+      background: var(--bg-card); color: var(--text); border: 1px solid var(--border);
+    }
+    .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ===== Hero ===== */
+    .hero {
+      min-height: 100vh; padding: 140px 0 80px;
+      display: flex; align-items: center; position: relative;
+    }
+    .hero-inner { display: grid; grid-template-columns: 1.4fr auto; gap: 56px; align-items: center; width: 100%; }
+    .hero-content { max-width: 760px; }
+    .hero-avatar {
+      position: relative;
+      width: clamp(220px, 28vw, 320px);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      padding: 4px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      box-shadow: 0 25px 80px var(--accent-glow);
+      animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    .hero-avatar-inner {
+      width: 100%; height: 100%; border-radius: 50%;
+      background: var(--bg-card);
+      display: grid; place-items: center;
+      overflow: hidden; position: relative;
+    }
+    .hero-avatar img {
+      width: 100%; height: 100%; object-fit: cover; border-radius: 50%;
+    }
+    .hero-avatar-fallback {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700; font-size: clamp(3rem, 7vw, 5rem);
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 32px; text-align: left; }
+      .hero-avatar { order: -1; width: clamp(160px, 40vw, 220px); }
+    }
+    .hero-pill {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px; border-radius: 999px; border: 1px solid var(--border);
+      background: var(--bg-card); font-size: 13px; color: var(--text-dim); font-weight: 500;
+      margin-bottom: 28px;
+    }
+    .hero-pill .dot {
+      width: 8px; height: 8px; border-radius: 50%; background: var(--accent);
+      box-shadow: 0 0 0 4px var(--accent-glow);
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+    .hero h1 {
+      font-size: clamp(2.4rem, 6vw, 4.5rem);
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .hero h1 .gradient {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .hero-sub {
+      font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+      color: var(--text-dim); max-width: 720px; margin-bottom: 36px;
+    }
+    .hero-cta { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 56px; }
+    .hero-stats {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 24px; max-width: 760px;
+    }
+    .stat {
+      padding: 22px; border: 1px solid var(--border); border-radius: var(--radius-md);
+      background: var(--bg-card); transition: var(--transition);
+    }
+    .stat:hover { border-color: var(--accent); transform: translateY(-4px); }
+    .stat-num {
+      font-family: 'Space Grotesk', sans-serif; font-size: 2rem; font-weight: 700;
+      color: var(--accent); line-height: 1;
+    }
+    .stat-label { font-size: 13px; color: var(--text-dim); margin-top: 8px; }
+
+    /* ===== Section base ===== */
+    section { padding: 120px 0; position: relative; }
+    .section-head { text-align: center; margin-bottom: 64px; max-width: 720px; margin-inline: auto; }
+    .section-tag {
+      display: inline-block; padding: 5px 12px; border-radius: 999px;
+      background: var(--accent-glow); color: var(--accent);
+      font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .section-title { font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 14px; }
+    .section-sub { color: var(--text-dim); font-size: 1.05rem; }
+
+    /* ===== About ===== */
+    .about-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px; align-items: center; }
+    .about-text p { color: var(--text-dim); margin-bottom: 18px; font-size: 1.02rem; }
+    .about-text strong { color: var(--text); font-weight: 600; }
+    .about-highlights { display: grid; gap: 14px; margin-top: 28px; }
+    .highlight {
+      display: flex; gap: 14px; padding: 16px; border-radius: var(--radius-md);
+      background: var(--bg-card); border: 1px solid var(--border); transition: var(--transition);
+    }
+    .highlight:hover { border-color: var(--accent); transform: translateX(4px); }
+    .highlight-icon {
+      flex: 0 0 40px; height: 40px; border-radius: 10px;
+      background: var(--accent-glow); color: var(--accent);
+      display: grid; place-items: center; font-size: 20px;
+    }
+    .highlight-title { font-weight: 600; color: var(--text); margin-bottom: 4px; }
+    .highlight-desc { color: var(--text-dim); font-size: 14px; }
+
+    /* ===== Skills ===== */
+    .skills-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 22px;
+    }
+    .skill-card {
+      padding: 28px; border: 1px solid var(--border); border-radius: var(--radius-lg);
+      background: var(--bg-card); transition: var(--transition); position: relative; overflow: hidden;
+    }
+    .skill-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      transform: scaleX(0); transform-origin: left; transition: transform 0.5s ease;
+    }
+    .skill-card:hover::before { transform: scaleX(1); }
+    .skill-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: var(--accent); }
+    .skill-icon {
+      width: 48px; height: 48px; border-radius: 12px; background: var(--accent-glow); color: var(--accent);
+      display: grid; place-items: center; margin-bottom: 18px; font-size: 22px;
+    }
+    .skill-card h3 { font-size: 1.15rem; margin-bottom: 14px; }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .skill-tag {
+      padding: 5px 12px; border-radius: 999px; background: var(--bg-elev);
+      border: 1px solid var(--border); font-size: 12.5px; color: var(--text-dim);
+      transition: var(--transition);
+    }
+    .skill-card:hover .skill-tag { border-color: color-mix(in srgb, var(--accent) 30%, var(--border)); }
+
+    /* ===== Experience timeline ===== */
+    .timeline { max-width: 880px; margin: 0 auto; position: relative; padding-left: 30px; }
+    .timeline::before {
+      content: ''; position: absolute; left: 8px; top: 8px; bottom: 8px; width: 2px;
+      background: linear-gradient(to bottom, var(--accent), transparent);
+    }
+    .tl-item { position: relative; padding-bottom: 48px; }
+    .tl-item:last-child { padding-bottom: 0; }
+    .tl-dot {
+      position: absolute; left: -30px; top: 6px; width: 18px; height: 18px;
+      border-radius: 50%; background: var(--bg); border: 3px solid var(--accent);
+      box-shadow: 0 0 0 4px var(--accent-glow);
+    }
+    .tl-meta {
+      display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-bottom: 8px;
+      font-size: 13px; color: var(--text-dim);
+    }
+    .tl-period { font-weight: 600; color: var(--accent); }
+    .tl-item h3 { font-size: 1.35rem; margin-bottom: 4px; }
+    .tl-company { font-size: 1rem; color: var(--text-dim); margin-bottom: 16px; font-weight: 500; }
+    .tl-bullets { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    .tl-bullets li {
+      padding-left: 24px; position: relative; color: var(--text-dim); font-size: 0.97rem;
+    }
+    .tl-bullets li::before {
+      content: '▹'; position: absolute; left: 0; color: var(--accent); font-weight: 700;
+    }
+
+    /* ===== Case studies ===== */
+    .cases-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 24px; }
+    .case-card {
+      padding: 32px; border: 1px solid var(--border); border-radius: var(--radius-lg);
+      background: var(--bg-card); transition: var(--transition); position: relative; overflow: hidden;
+      display: flex; flex-direction: column;
+    }
+    .case-card::after {
+      content: ''; position: absolute; inset: 0; opacity: 0; transition: var(--transition);
+      background: radial-gradient(circle at var(--mx, 50%) var(--my, 0%), var(--accent-glow), transparent 60%);
+      pointer-events: none;
+    }
+    .case-card:hover::after { opacity: 1; }
+    .case-card:hover { border-color: var(--accent); transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+    .case-domain {
+      display: inline-block; padding: 4px 10px; border-radius: 6px;
+      background: var(--accent-glow); color: var(--accent);
+      font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+      margin-bottom: 14px; align-self: flex-start;
+    }
+    .case-card h3 { font-size: 1.3rem; margin-bottom: 16px; }
+    .case-block { margin-bottom: 14px; }
+    .case-label {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--text-muted); margin-bottom: 4px;
+    }
+    .case-block p { color: var(--text-dim); font-size: 0.94rem; }
+    .case-metrics {
+      display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 18px;
+      border-top: 1px dashed var(--border);
+    }
+    .metric {
+      padding: 6px 12px; border-radius: 8px; background: var(--bg-elev);
+      font-size: 12.5px; font-weight: 600; color: var(--text);
+    }
+    .metric strong { color: var(--accent); }
+
+    /* ===== Certifications ===== */
+    .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    .cert-card {
+      padding: 24px; border: 1px solid var(--border); border-radius: var(--radius-md);
+      background: var(--bg-card); transition: var(--transition);
+      display: flex; gap: 16px; align-items: flex-start;
+    }
+    .cert-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+    .cert-icon {
+      flex: 0 0 44px; height: 44px; border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #fff; display: grid; place-items: center; font-size: 22px;
+    }
+    .cert-name { font-weight: 600; margin-bottom: 4px; color: var(--text); }
+    .cert-issuer { font-size: 13px; color: var(--text-dim); }
+
+    /* ===== Resume Download ===== */
+    .resume-card {
+      padding: 56px; border-radius: var(--radius-lg);
+      background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 8%, var(--bg-card)),
+                                          color-mix(in srgb, var(--accent-2) 8%, var(--bg-card)));
+      border: 1px solid var(--border);
+      display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center;
+      position: relative; overflow: hidden;
+    }
+    .resume-card::before {
+      content: ''; position: absolute; top: -50%; right: -10%; width: 400px; height: 400px;
+      background: radial-gradient(circle, var(--accent-glow), transparent 70%); pointer-events: none;
+    }
+    .resume-card h3 { font-size: 1.6rem; margin-bottom: 10px; }
+    .resume-card p { color: var(--text-dim); }
+    .resume-actions { display: flex; flex-direction: column; gap: 10px; }
+
+    /* ===== Contact ===== */
+    .contact-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 56px; align-items: start; }
+    .contact-info h3 { font-size: 1.5rem; margin-bottom: 14px; }
+    .contact-info > p { color: var(--text-dim); margin-bottom: 28px; }
+    .contact-list { display: grid; gap: 14px; }
+    .contact-link {
+      display: flex; align-items: center; gap: 14px; padding: 14px 18px;
+      border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--bg-card);
+      transition: var(--transition);
+    }
+    .contact-link:hover { border-color: var(--accent); transform: translateX(4px); }
+    .contact-link-icon {
+      width: 40px; height: 40px; border-radius: 10px;
+      background: var(--accent-glow); color: var(--accent);
+      display: grid; place-items: center; flex-shrink: 0;
+    }
+    .contact-link-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; }
+    .contact-link-value { font-weight: 600; color: var(--text); word-break: break-word; }
+
+    .contact-form {
+      padding: 32px; border-radius: var(--radius-lg); background: var(--bg-card);
+      border: 1px solid var(--border);
+    }
+    .form-row { display: grid; gap: 18px; }
+    .form-group { display: flex; flex-direction: column; gap: 8px; }
+    .form-group label { font-size: 13px; font-weight: 600; color: var(--text-dim); }
+    .form-group input, .form-group textarea {
+      padding: 13px 16px; border-radius: 10px; border: 1px solid var(--border);
+      background: var(--bg-elev); color: var(--text); font-family: inherit; font-size: 15px;
+      transition: var(--transition);
+    }
+    .form-group input:focus, .form-group textarea:focus {
+      outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-glow);
+    }
+    .form-group textarea { resize: vertical; min-height: 120px; }
+    .form-status { font-size: 14px; color: var(--success); min-height: 20px; }
+
+    /* ===== Footer ===== */
+    .footer {
+      padding: 40px 0; border-top: 1px solid var(--border); margin-top: 40px;
+      color: var(--text-muted); font-size: 14px;
+    }
+    .footer-inner { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center; }
+    .footer-links { display: flex; gap: 18px; }
+    .footer-links a:hover { color: var(--accent); }
+
+    /* ===== Reveal animations ===== */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 900px) {
+      .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0;
+                   flex-direction: column; padding: 16px 24px; gap: 4px;
+                   background: var(--bg-elev); border-bottom: 1px solid var(--border); }
+      .nav-links.open { display: flex; }
+      .nav-links a { padding: 12px 14px; }
+      .menu-toggle { display: grid; }
+      .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 32px; }
+      .resume-card { grid-template-columns: 1fr; padding: 32px; }
+      section { padding: 80px 0; }
+      .hero { padding: 110px 0 60px; min-height: auto; }
+    }
+    @media (max-width: 560px) {
+      .hero-cta .btn { flex: 1; justify-content: center; }
+      .resume-card { padding: 28px; }
+      .contact-form { padding: 22px; }
+      .case-card, .skill-card { padding: 22px; }
+      section { padding: 64px 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo" aria-label="Chirag Sharma — home">
+        <span class="logo-mark">CS</span>
+        <span>Chirag Sharma</span>
+      </a>
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle theme">
+          <svg id="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-pill reveal"><span class="dot"></span> Senior Business Analyst · Healthcare &amp; SaaS</div>
+        <h1 class="reveal reveal-delay-1">
+          Turning complex business problems into <span class="gradient">measurable product outcomes.</span>
+        </h1>
+        <p class="hero-sub reveal reveal-delay-2">
+          Senior Business Analyst with 8+ years across Healthcare, Pharma, LMS, and CRM SaaS. I translate ambiguous stakeholder needs into shippable specs — and lean on AI to ship them faster, without compromising rigor.
+        </p>
+        <div class="hero-cta reveal reveal-delay-3">
+          <a href="#case-studies" class="btn btn-primary">
+            View Case Studies
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+        <div class="hero-stats reveal reveal-delay-3">
+          <div class="stat"><div class="stat-num" data-count="8">0</div><div class="stat-label">Years of BA experience</div></div>
+          <div class="stat"><div class="stat-num" data-count="100" data-suffix="+">0</div><div class="stat-label">User stories authored</div></div>
+          <div class="stat"><div class="stat-num" data-count="40" data-suffix="%">0</div><div class="stat-label">Manual effort reduced</div></div>
+          <div class="stat"><div class="stat-num" data-count="30" data-suffix="%">0</div><div class="stat-label">Lift in user satisfaction</div></div>
+        </div>
+      </div>
+      <div class="hero-avatar reveal reveal-delay-2">
+        <div class="hero-avatar-inner">
+          <!-- Drop your profile photo into assets/profile.jpg to replace the "CS" initials. -->
+          <div class="hero-avatar-fallback" id="hero-fallback" style="display:grid; width:100%; height:100%; place-items:center;">CS</div>
+          <img id="hero-photo" src="assets/profile.jpg" alt="Chirag Sharma — Senior Business Analyst"
+               style="display:none; position:absolute; inset:0;"
+               onload="this.style.display='block'; document.getElementById('hero-fallback').style.display='none';"
+               onerror="this.remove();" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">A Business Analyst built for ambiguous problems.</h2>
+        <p class="section-sub">Where business strategy meets technical delivery — that's the seat I've worked from for nearly a decade.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm a <strong>Senior Business Analyst</strong> with 8+ years delivering SaaS products in <strong>Healthcare, Pharmaceutical, Learning Management, and Enterprise CRM</strong>. My core craft is requirements engineering: turning fuzzy stakeholder conversations into clear, testable specs that engineering, QA, and product can run with.</p>
+          <p>I've led <strong>HIPAA, EVV, and EMR-aligned</strong> compliance work, owned roadmaps from market research to release, and partnered closely with Product Owners, Scrum Masters, BI engineers, and client stakeholders across US and global accounts.</p>
+          <p>I also actively integrate <strong>AI tools like Claude</strong> into my BA workflow — drafting BRDs and user stories, stress-testing edge cases, and summarizing stakeholder interviews. The result: roughly <strong>50% faster documentation cycles</strong> with quality preserved through manual validation.</p>
+          <p>Based in Palampur, Himachal Pradesh — open to remote, hybrid, and select on-site opportunities.</p>
+        </div>
+        <div class="about-highlights reveal reveal-delay-1">
+          <div class="highlight">
+            <div class="highlight-icon">⚕</div>
+            <div>
+              <div class="highlight-title">Healthcare & Compliance Depth</div>
+              <div class="highlight-desc">HIPAA, EVV, and EMR control frameworks, audit-ready traceability matrices.</div>
+            </div>
+          </div>
+          <div class="highlight">
+            <div class="highlight-icon">⚡</div>
+            <div>
+              <div class="highlight-title">Agile Delivery at Scale</div>
+              <div class="highlight-desc">100+ user stories, sprint demos, UAT, release planning across multiple SaaS platforms.</div>
+            </div>
+          </div>
+          <div class="highlight">
+            <div class="highlight-icon">✦</div>
+            <div>
+              <div class="highlight-title">AI-Augmented Analysis</div>
+              <div class="highlight-desc">~50% faster docs using Claude — validated, never blindly trusted.</div>
+            </div>
+          </div>
+          <div class="highlight">
+            <div class="highlight-icon">◎</div>
+            <div>
+              <div class="highlight-title">Roadmap Ownership</div>
+              <div class="highlight-desc">Market research, competitor analysis, and stakeholder alignment for the Learn2Care LMS.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Skills & Tools</span>
+        <h2 class="section-title">The toolkit behind the delivery.</h2>
+        <p class="section-sub">Categorized by where each capability lives in the BA lifecycle — from discovery to release.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">◐</div>
+          <h3>Business Analysis</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">BRD</span><span class="skill-tag">FRS</span><span class="skill-tag">SRS</span>
+            <span class="skill-tag">User Stories</span><span class="skill-tag">Use Cases</span>
+            <span class="skill-tag">Process Mapping</span><span class="skill-tag">Gap Analysis</span>
+            <span class="skill-tag">UAT</span><span class="skill-tag">Traceability Matrices</span>
+          </div>
+        </div>
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-icon">◑</div>
+          <h3>Agile & Project Delivery</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Scrum</span><span class="skill-tag">Kanban</span><span class="skill-tag">Waterfall</span>
+            <span class="skill-tag">SDLC</span><span class="skill-tag">Sprint Planning</span>
+            <span class="skill-tag">Backlog Management</span><span class="skill-tag">Release Planning</span>
+            <span class="skill-tag">Change Management</span>
+          </div>
+        </div>
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-icon">◒</div>
+          <h3>Tools & Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Jira</span><span class="skill-tag">Confluence</span>
+            <span class="skill-tag">MS Visio</span><span class="skill-tag">Draw.io</span>
+            <span class="skill-tag">SharePoint</span><span class="skill-tag">MS Office Suite</span>
+            <span class="skill-tag">SQL Server</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">✦</div>
+          <h3>AI-Augmented Analysis</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Claude AI</span><span class="skill-tag">Requirement Validation</span>
+            <span class="skill-tag">BRD/FRD Drafting</span><span class="skill-tag">Edge Case Generation</span>
+            <span class="skill-tag">Test Scenario Synthesis</span><span class="skill-tag">Interview Summarization</span>
+          </div>
+        </div>
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-icon">⚕</div>
+          <h3>Domain Expertise</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Healthcare</span><span class="skill-tag">HIPAA</span>
+            <span class="skill-tag">EVV</span><span class="skill-tag">EMR</span>
+            <span class="skill-tag">Pharmaceutical</span><span class="skill-tag">LMS</span>
+            <span class="skill-tag">AI Automation</span><span class="skill-tag">B2B Marketplaces</span>
+            <span class="skill-tag">CRM</span>
+          </div>
+        </div>
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-icon">◍</div>
+          <h3>Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Stakeholder Management</span>
+            <span class="skill-tag">Cross-functional Collaboration</span>
+            <span class="skill-tag">Workshop Facilitation</span>
+            <span class="skill-tag">Presentation</span>
+            <span class="skill-tag">Technical Documentation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Experience</span>
+        <h2 class="section-title">Where I've shipped impact.</h2>
+        <p class="section-sub">Eight years, two companies, dozens of releases — measured by outcomes, not just outputs.</p>
+      </div>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-meta">
+            <span class="tl-period">April 2022 – Present</span>
+            <span>•</span>
+            <span>Chandigarh, India</span>
+          </div>
+          <h3>Senior Business Analyst</h3>
+          <div class="tl-company">Netsmartz Solutions Pvt. Ltd.</div>
+          <ul class="tl-bullets">
+            <li>Partner with Product Owners and Scrum Masters to define release plans and manage prioritized backlogs across multiple SaaS healthcare platforms.</li>
+            <li>Lead requirements elicitation for HIPAA and EVV compliance — producing control frameworks, traceability matrices, and audit-ready documentation that hold up under scrutiny.</li>
+            <li>Authored and managed 100+ user stories, acceptance criteria, and wireframes in Jira; facilitated sprint demos and UAT, driving a <strong>30% lift in user satisfaction scores</strong>.</li>
+            <li>Defined KPIs and reporting requirements with BI engineers to enable real-time analytics for care managers and leadership.</li>
+            <li>Own the product roadmap for the Learn2Care LMS through market research, competitor analysis, and stakeholder interviews.</li>
+            <li>Use Claude AI to accelerate first drafts and stress-test workflow logic — <strong>~50% faster documentation turnaround</strong> with quality preserved through manual validation.</li>
+          </ul>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-meta">
+            <span class="tl-period">January 2018 – March 2022</span>
+            <span>•</span>
+            <span>Mohali, India</span>
+          </div>
+          <h3>Business Analyst</h3>
+          <div class="tl-company">smartData Enterprises Ltd.</div>
+          <ul class="tl-bullets">
+            <li>Elicited and documented functional and non-functional requirements for healthcare, social media, and SaaS products serving US and global clients.</li>
+            <li>Performed gap analyses and identified automation opportunities — redesigned workflows that <strong>reduced manual data entry by 40%</strong>.</li>
+            <li>Conducted persona workshops and authored user journeys and epics for a social media platform, lifting user engagement.</li>
+            <li>Defined API contracts and data schemas for an AI-powered assessment SaaS product to support scalable third-party integrations.</li>
+            <li>Owned end-to-end requirements for custom-logo ordering workflows and client dashboards across B2B marketplaces and CRM solutions.</li>
+            <li>Coordinated UAT cycles with QA and client stakeholders, ensuring on-time go-lives with minimal post-release defects.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CASE STUDIES ============ -->
+  <section id="case-studies">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Case Studies</span>
+        <h2 class="section-title">Selected work, told in problem → solution → outcome.</h2>
+        <p class="section-sub">A few representative engagements that illustrate how I work — and what changes after I'm done.</p>
+      </div>
+      <div class="cases-grid">
+
+        <article class="case-card reveal">
+          <span class="case-domain">Healthcare · Compliance</span>
+          <h3>HIPAA & EVV-Compliant Care Management Platform</h3>
+          <div class="case-block">
+            <div class="case-label">Problem</div>
+            <p>Multiple SaaS healthcare modules needed to demonstrate HIPAA and EVV compliance to enterprise customers and auditors, but documentation was scattered, inconsistent, and difficult to defend during external reviews.</p>
+          </div>
+          <div class="case-block">
+            <div class="case-label">Approach</div>
+            <p>Led requirements elicitation across product, engineering, and clinical SMEs. Built a unified control framework mapping each compliance requirement to user stories, acceptance criteria, and test cases. Authored audit-ready specs and traceability matrices in Confluence; partnered with BI to wire compliance KPIs into care-manager dashboards.</p>
+          </div>
+          <div class="case-block">
+            <div class="case-label">Outcome</div>
+            <p>Audit-ready documentation that passed enterprise customer reviews. Care managers and leadership got real-time analytics into compliance posture and care delivery — turning compliance from a cost center into a sales asset.</p>
+          </div>
+          <div class="case-metrics">
+            <div class="metric"><strong>30%</strong> lift in user satisfaction</div>
+            <div class="metric"><strong>100+</strong> user stories shipped</div>
+            <div class="metric"><strong>HIPAA</strong> + EVV aligned</div>
+          </div>
+        </article>
+
+        <article class="case-card reveal reveal-delay-1">
+          <span class="case-domain">LMS · Roadmap Ownership</span>
+          <h3>Learn2Care LMS — Roadmap & Strategy</h3>
+          <div class="case-block">
+            <div class="case-label">Problem</div>
+            <p>Learn2Care needed a strategic roadmap that aligned engineering capacity with market opportunity — without losing the day-to-day stakeholder requests competing for the same backlog.</p>
+          </div>
+          <div class="case-block">
+            <div class="case-label">Approach</div>
+            <p>Ran a structured roadmap discovery: competitor teardown, market research interviews, and stakeholder workshops with Product, Sales, and Customer Success. Translated themes into a Now / Next / Later roadmap with clear success metrics and prioritized backlog tied to each theme.</p>
+          </div>
+          <div class="case-block">
+            <div class="case-label">Outcome</div>
+            <p>A roadmap leadership could stand behind in customer conversations and that engineering could plan releases around — replacing reactive ticket triage with intentional sequencing tied to business strategy.</p>
+          </div>
+          <div class="case-metrics">
+            <div class="metric"><strong>Owned</strong> end-to-end roadmap</div>
+            <div class="metric"><strong>Multi-stakeholder</strong> alignment</div>
+            <div class="metric"><strong>Strategy-led</strong> backlog</div>
+          </div>
+        </article>
+
+        <article class="case-card reveal reveal-delay-2">
+          <span class="case-domain">AI-Augmented · Process</span>
+          <h3>AI-Augmented BA Workflow with Claude</h3>
+          <div class="case-block">
+            <div class="case-label">Problem</div>
+            <p>Documentation cycles were eating into discovery and validation time. Stakeholder interviews, BRD drafts, and edge-case enumeration took days that could have gone to higher-leverage work.</p>
+          </div>
+          <div class="case-block">
+            <div class="case-label">Approach</div>
+            <p>Designed a repeatable BA workflow using Claude: structured prompts for first-draft user stories and BRDs, edge-case stress-testing checklists, test scenario generation, and stakeholder interview summarization. Built a manual validation step at every handoff so AI accelerates without replacing judgement.</p>
+          </div>
+          <div class="case-block">
+            <div class="case-label">Outcome</div>
+            <p>Documentation turnaround dropped roughly 50%. Reclaimed time went into deeper requirement validation, sharper UAT plans, and earlier risk discovery — quality stayed high because every output was reviewed.</p>
+          </div>
+          <div class="case-metrics">
+            <div class="metric"><strong>~50%</strong> faster documentation</div>
+            <div class="metric"><strong>Validated</strong>, never blind</div>
+            <div class="metric"><strong>Repeatable</strong> playbook</div>
+          </div>
+        </article>
+
+        <article class="case-card reveal reveal-delay-3">
+          <span class="case-domain">SaaS · API Strategy</span>
+          <h3>AI-Powered Assessment SaaS — API & Data Schema</h3>
+          <div class="case-block">
+            <div class="case-label">Problem</div>
+            <p>A SaaS assessment product was bottlenecked by ad-hoc third-party integrations. Each new partner integration was bespoke, slow, and brittle — limiting scalability.</p>
+          </div>
+          <div class="case-block">
+            <div class="case-label">Approach</div>
+            <p>Worked with engineering to define standardized API contracts and data schemas. Mapped every external integration to a shared surface area, documented authentication, error handling, and versioning expectations. Wrote integration-ready specs that partners could self-onboard against.</p>
+          </div>
+          <div class="case-block">
+            <div class="case-label">Outcome</div>
+            <p>Partner integrations moved from custom one-offs to a repeatable contract. Engineering reclaimed sprint capacity, and the product gained a scalable integration story for sales conversations.</p>
+          </div>
+          <div class="case-metrics">
+            <div class="metric"><strong>Scalable</strong> integration surface</div>
+            <div class="metric"><strong>Self-serve</strong> partner specs</div>
+            <div class="metric"><strong>40%</strong> manual effort reduced</div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Certifications & Education</span>
+        <h2 class="section-title">Credentials and continuous learning.</h2>
+        <p class="section-sub">Formal training that backs the practice.</p>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon">◆</div>
+          <div>
+            <div class="cert-name">Business Analysis Foundations</div>
+            <div class="cert-issuer">LinkedIn Learning</div>
+          </div>
+        </div>
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-icon">◆</div>
+          <div>
+            <div class="cert-name">Requirements Foundations</div>
+            <div class="cert-issuer">LinkedIn Learning</div>
+          </div>
+        </div>
+        <div class="cert-card reveal reveal-delay-2">
+          <div class="cert-icon">◆</div>
+          <div>
+            <div class="cert-name">Project Management Foundations</div>
+            <div class="cert-issuer">Google</div>
+          </div>
+        </div>
+        <div class="cert-card reveal reveal-delay-3">
+          <div class="cert-icon">◆</div>
+          <div>
+            <div class="cert-name">Customer Analytics</div>
+            <div class="cert-issuer">Google</div>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🎓</div>
+          <div>
+            <div class="cert-name">Master of Computer Applications (MCA)</div>
+            <div class="cert-issuer">Himachal Pradesh University, Shimla — 2018</div>
+          </div>
+        </div>
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-icon">🎓</div>
+          <div>
+            <div class="cert-name">Bachelor of Science (B.Sc.)</div>
+            <div class="cert-issuer">Himachal Pradesh University, Shimla</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESUME DOWNLOAD ============ -->
+  <section id="resume">
+    <div class="container">
+      <div class="resume-card reveal">
+        <div>
+          <span class="section-tag" style="margin-bottom:14px;">Resume</span>
+          <h3>Want the one-pager?</h3>
+          <p>Grab the full PDF, or open the live web version that prints cleanly to PDF in any browser.</p>
+        </div>
+        <div class="resume-actions">
+          <a href="resume.html" target="_blank" rel="noopener" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            View / Print Resume
+          </a>
+          <a href="Chirag_Sharma_Senior_Business_Analyst_Resume.pdf" download class="btn btn-ghost">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            Download PDF
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's talk.</h2>
+        <p class="section-sub">Hiring, consulting, or just curious about how AI fits into a BA's workflow — I read every message.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Get in touch directly</h3>
+          <p>The fastest way to reach me is email or LinkedIn. I usually reply within 24 hours.</p>
+          <div class="contact-list">
+            <a href="mailto:sharmachiragsharma77@gmail.com" class="contact-link">
+              <div class="contact-link-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+              <div>
+                <div class="contact-link-label">Email</div>
+                <div class="contact-link-value">sharmachiragsharma77@gmail.com</div>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/chirag-sharma-59a347161" target="_blank" rel="noopener" class="contact-link">
+              <div class="contact-link-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg></div>
+              <div>
+                <div class="contact-link-label">LinkedIn</div>
+                <div class="contact-link-value">linkedin.com/in/chirag-sharma-59a347161</div>
+              </div>
+            </a>
+            <a href="tel:+918350981441" class="contact-link">
+              <div class="contact-link-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></div>
+              <div>
+                <div class="contact-link-label">Phone</div>
+                <div class="contact-link-value">+91 8350981441</div>
+              </div>
+            </a>
+            <div class="contact-link" style="cursor:default">
+              <div class="contact-link-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div>
+                <div class="contact-link-label">Location</div>
+                <div class="contact-link-value">Palampur, Himachal Pradesh, India</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal reveal-delay-1" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" required placeholder="e.g. Priya Mehta" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@company.com" />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Senior BA opportunity at Acme" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="Tell me a bit about the role or project..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="justify-content:center;">
+              Send Message
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year">2026</span> Chirag Sharma · Senior Business Analyst</div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="mailto:sharmachiragsharma77@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/chirag-sharma-59a347161" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ===== Theme toggle (persists in localStorage) =====
+    (function () {
+      const root = document.documentElement;
+      const toggle = document.getElementById('theme-toggle');
+      const icon = document.getElementById('theme-icon');
+      const stored = localStorage.getItem('theme');
+      const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+      const initial = stored || (prefersLight ? 'light' : 'dark');
+      root.setAttribute('data-theme', initial);
+      updateIcon(initial);
+
+      toggle.addEventListener('click', () => {
+        const current = root.getAttribute('data-theme');
+        const next = current === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        updateIcon(next);
+      });
+
+      function updateIcon(theme) {
+        if (theme === 'dark') {
+          icon.innerHTML = '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>';
+        } else {
+          icon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>';
+        }
+      }
+    })();
+
+    // ===== Mobile menu =====
+    (function () {
+      const menu = document.getElementById('menu-toggle');
+      const links = document.getElementById('nav-links');
+      menu.addEventListener('click', () => {
+        const open = links.classList.toggle('open');
+        menu.setAttribute('aria-expanded', String(open));
+      });
+      links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+        links.classList.remove('open');
+        menu.setAttribute('aria-expanded', 'false');
+      }));
+    })();
+
+    // ===== Scroll-aware nav =====
+    (function () {
+      const nav = document.getElementById('nav');
+      const links = document.querySelectorAll('.nav-links a');
+      const sections = ['about','skills','experience','case-studies','certifications','contact']
+        .map(id => document.getElementById(id));
+
+      window.addEventListener('scroll', () => {
+        nav.classList.toggle('scrolled', window.scrollY > 24);
+        const y = window.scrollY + 120;
+        let activeId = '';
+        sections.forEach(s => { if (s && s.offsetTop <= y) activeId = s.id; });
+        links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + activeId));
+      }, { passive: true });
+    })();
+
+    // ===== Reveal on scroll =====
+    (function () {
+      const els = document.querySelectorAll('.reveal');
+      const obs = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            obs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(el => obs.observe(el));
+    })();
+
+    // ===== Stats counter =====
+    (function () {
+      const counters = document.querySelectorAll('.stat-num[data-count]');
+      const animate = (el) => {
+        const target = parseInt(el.dataset.count, 10);
+        const suffix = el.dataset.suffix || '';
+        const dur = 1400;
+        const start = performance.now();
+        const tick = (now) => {
+          const p = Math.min((now - start) / dur, 1);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(target * eased) + suffix;
+          if (p < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      };
+      const obs = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) { animate(e.target); obs.unobserve(e.target); } });
+      }, { threshold: 0.5 });
+      counters.forEach(c => obs.observe(c));
+    })();
+
+    // ===== Case card cursor glow =====
+    (function () {
+      document.querySelectorAll('.case-card').forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const r = card.getBoundingClientRect();
+          card.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%');
+          card.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%');
+        });
+      });
+    })();
+
+    // ===== Contact form (mailto fallback, no backend required) =====
+    (function () {
+      const form = document.getElementById('contact-form');
+      const status = document.getElementById('form-status');
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = form.name.value.trim();
+        const email = form.email.value.trim();
+        const subject = form.subject.value.trim() || 'Portfolio inquiry';
+        const message = form.message.value.trim();
+        if (!name || !email || !message) {
+          status.style.color = 'var(--warning)';
+          status.textContent = 'Please fill in name, email, and message.';
+          return;
+        }
+        const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
+        const subj = encodeURIComponent(subject);
+        window.location.href = `mailto:sharmachiragsharma77@gmail.com?subject=${subj}&body=${body}`;
+        status.style.color = 'var(--success)';
+        status.textContent = 'Opening your email app… if it didn\'t open, email me directly.';
+      });
+    })();
+
+    // ===== Year =====
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
